@@ -1,3 +1,10 @@
+'use client';
+import MianPages from '@/components/MianPages';
+
 export default function Home() {
-  return <div>salam</div>;
+  return (
+    <div className="flex h-full">
+      <MianPages />
+    </div>
+  );
 }
